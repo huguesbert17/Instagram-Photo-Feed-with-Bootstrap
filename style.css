@@ -1,0 +1,11 @@
+#posts:not(.flex-column) .card-header{
+    display: none;
+}
+
+#posts:not(.flex-column) .card-body{
+    display: none;
+}
+
+#posts.flex-column .card-header{
+    display: flex;
+}
